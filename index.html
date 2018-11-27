@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Big Data of Bitcoin Networks</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/mystylesheet.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <!--fonts-->
+  <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+</head>
+<body>
+
+<div class="container-fluid text-center bg-1">   
+    <h1>BIG DATA OF BITCOIN NETWORKS</h1>
+    <p>Visualizing the worldwide bitcoin network.</p>
+    <a href="demo.html">DEMO</a> 
+</div>
+
+<div class="container-fluid text-center bg-2">
+    <h3>Introduction</h3>
+    <p>
+        The Cryptocurrency network analyzer parses through open source network traffic data on various ports to visualize the traffic in a more digestible manner. This demonstration uses the open source data on IPv4-wide port scans available from Rapid7, an open data community that provides members access to data from Project Sonar which conducts internet-wide surveys to gain insights into global exposure to common vulnerabilities.
+    </p>
+</div>
+
+<div class="container-fluid text-center bg-3">
+    <h3>Topics of Interest</h3>
+    <div class="row">
+        <div class="col-sm-4">
+          <p>Analyzing bitcoin port scans.</p>
+        </div>
+        <div class="col-sm-4">
+          <p>Correlating IP addresses to location.</p>
+        </div>
+        <div class="col-sm-4"> 
+          <p>Correlating location with electricity costs.</p>
+        </div>
+    </div>
+</div>
+
+<div class="container-fluid text-center bg-4">
+  <h3>Goal</h3>
+  <p> Analyze geolocation data for bitcoin networks in relation to location specific metrics to reveal trends, and ultimately map popularity of bitcoin locations to characteristics such as profitability over time.</p>
+</div>
+
+<div class="container-fluid text-center bg-5">
+    <h3>Analysis</h3>
+    <p>Overview: Bitcoin Usage Broken Down by Country for 2018</p>
+    <img src="images/charts/linechart.png" class="img-responsive" style="width:60%;display:inline;padding:20px;" alt="Overview Line Chart">
+
+    <div class="row">
+        <div class="col-sm-6">
+          <p>Bitcoin Nodes: North America</p>
+         <img src="images/charts/northamerica.png" class="img-responsive" style="width:100%;display:inline" alt="North America Data Trends">
+        </div>
+        <div class="col-sm-6">
+          <p>Bitcoin Nodes: South America</p>
+            <img src="images/charts/southamerica.png" class="img-responsive" style="width:100%;display:inline" alt="South America Data Trends">
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-sm-6">
+          <p>Bitcoin Nodes: Europe</p>
+            <img src="images/charts/europe.png" class="img-responsive" style="width:100%;display:inline" alt="Europe Data Trends">
+        </div>
+        <div class="col-sm-6">
+         <p>Bitcoin Nodes: Asia</p>
+            <img src="images/charts/asia.png" class="img-responsive" style="width:100%;display:inline" alt="Asia Data Trends">
+        </div>
+    </div>
+
+    <div class="row"> 
+      <p>Bitcoin Nodes: Australia</p>
+        <img src="images/charts/australia.png" class="img-responsive" style="width:50%;display:inline" alt="Australia Data Trends">
+    </div>
+</div>
+
+<div class="container-fluid text-center bg-6">
+    <h3>Results</h3>
+    <p>
+        A demonstration has been created that allows you to interactively scroll around the Earth to see locations of network traffic regarding bitcoin activity.This demo was made possible by Rapid7 for providing the open source data and cesium consortium for providing a library to visualize our analysis.The web application allows the user to visualize bitcoin network traffic through a time series. Currently it is limited to only bitcoin, but future iterations of this demo would include scans of other ports. Please enjoy the demo!
+    </p>
+    <a href="demo.html" >Demo</a> 
+</div>
+
+<div class="container-fluid text-center bg-7">
+    <h3>About the Project</h3>
+    <p>
+        The creators of the demo for this project are Devleena Das, Jonathan Dolan, Joshua Henson, Albert Li, Samantha Mann, and Eric Rafalovsky.  All are students at Georgia Tech. This project was developed for ECE 4605, which serves to underline advanced internetworking topics. This project emphasizes the topic of big data.
+    </p>
+</div>
+
+<footer class="container-fluid text-center bg-footer">
+    <small>ECE 4605 Fall 2018</small>
+</footer>
+
+
+</body>
+</html>
